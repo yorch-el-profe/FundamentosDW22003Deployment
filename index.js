@@ -7,6 +7,6 @@ const server = http.createServer(function (_, response) {
 	response.end();
 });
 
-server.listen(8080, function () {
+server.listen(80, function () {
 	console.log("Servidor escuchando el puerto 8080");
 });
